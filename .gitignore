@@ -1,0 +1,32 @@
+.env
+.env.*
+!.env.example
+
+.venv/
+.testenv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+logs/
+*.log
+*.py[cod]
+
+dist/
+build/
+*.egg-info/
+
+# Local generated audio/test outputs
+*.mp3
+*.wav
+*.ogg
+
+# Generated synthesis/test JSON
+aiko_synthesis.json
+synthesis.json
+turn.json
+
+# Local backup files
+*.backup
+*.bak
